@@ -1,12 +1,25 @@
+/* Apply smooth and fluid scrolling behavior on the HTML element */
+
+html {
+  scroll-behavior: smooth;
+}
+
 /* Target the root element and create custom font-family properties */
 :root {
-  --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	--color-primary: #d73953;
+	--color-black: #090909;
+	--color-white: #ffffff;
+  	--color-light-grey: #f3f3f3;
+ 	 --color-dark-grey: #353535;
+  	--text-color: var(--color-black);
+ 	 --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ 	 --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /* Set body's font-family to font-family-base */
 body {
   font-family: var(--font-family-base);
+  color: var(--text-color);
 }
 
 /* Create a new declaration targeting all 6 levels of section headings */
