@@ -29,7 +29,6 @@ html {
   	--line-height-base: 1.5;
   	--line-height-big: 1.8;
 
-	
 	--section-header-align: center;
 }
 
@@ -66,6 +65,10 @@ a {
 
 .card-category {
   color: var(--color-primary);
+}
+
+.section-header {
+  text-align: var(--section-header-align);
 }
 
 .section-tagline {
