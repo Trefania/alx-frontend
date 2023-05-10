@@ -563,7 +563,7 @@ list-style: none;
   text-align: right;
 }
 
-.row:after {
+.row::after {
   content: "";
   display: table;
   clear: both;
