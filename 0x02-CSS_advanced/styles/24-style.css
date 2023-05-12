@@ -589,6 +589,10 @@ list-style: none;
 	fill: var(--text-color);
 }
 
+.card-category {
+  color: var(--color-primary);
+}
+
 .card-services .card-title {
 	margin: 0;
 }
