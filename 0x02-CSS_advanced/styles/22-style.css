@@ -501,8 +501,8 @@ a:active {
 }
 
 [data-section-theme="dark"] {
-  --text-color: white;
-  --section-title-color: white;
+  --text-color: var(--color-white);
+  --section-title-color: var(--color-white);
   background: var(--color-black);
 }
 
@@ -576,4 +576,3 @@ list-style: none;
 .footer ul {
   text-align: right;
 }
-
